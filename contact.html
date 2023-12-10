@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Contact Page</h1>
+    <!-- form xutaunu parda <fieldset> taga used garne -->
+    <fieldset>
+      <legend> personal Information</legend>
+
+      <!-- action vaneko ka pathaune -->
+      <form action="mail" method="post">
+        <!-- p tag break garna ko lagi p tag le garda break hunxa -->
+        <!-- readonly le type garna mildaina -->
+
+        <p>
+          <label for="mail">Your Email: -</label>
+          <input name="mail" placeholder="put your real email" type="email" id="mail">
+        </p>
+        <p>
+          <label for="username">Your Username: -</label>
+          <input name="username" type="text" id="username" placeholder="enter username">
+        </p>
+        <p>
+          <label for="password"> Your Password:-</label>
+          <input type="password" id="password" name="password" placeholder="enter password">
+        </p>
+        <p>
+          <label for="age">Your Age</label>
+          <input type="number" id="age" name="age" min="16">
+        </p>
+        <p>
+          <label for="number">Contact:-</label>
+          <input type="tel" id="number" name="number">
+        </p>
+        <p>
+
+          <input type="file" id="" name="file">
+          </label>
+        </p>
+
+
+
+
+
+
+
+
+
+
+        <p>
+          <label for="date">Join Date: -</label>
+          <input name="date" type="date" id="date">
+        </p>
+
+
+        <p>
+
+        <h3>Choose Your Gender: -</h3>
+
+        <label for="male">Male</label>
+        <input value="male" name="gender" type="radio" id="male">
+
+        <label for="female">Female</label>
+        <input value="female" name="gender" type="radio" id="female">
+
+        </p>
+
+
+
+
+        <p>
+
+        <h3>Select Your Hobbies: -</h3>
+
+        <label for="dance">Dance</label>
+        <input value="dance" name="hobbies" type="checkbox" id="dance">
+
+        <label for="sing">Sing</label>
+        <input value="sing" name="hobbies" type="checkbox" id="sing">
+
+        </p>
+
+        <p>
+
+        <h3>Select Your Countires: -</h3>
+        <label for="country">Country selection</label>
+
+        <select name="country" id="country">
+          <optgroup label="Nepal">
+            <option value="china">China</option>
+            <option value="india">India</option>
+          </optgroup>
+          <option value="china">China</option>
+          <option value="india">India</option>
+
+        </select>
+
+        </p>
+        <p>
+
+          <label for="coffee">Fav Coffee</label>
+
+          <select name="coffee" id="coffee">
+            <optgroup label="Hard Coffee">
+              <option value="">Expresso</option>
+              <option value="">Mochiyato</option>
+            </optgroup>
+            <optgroup label="light Coffee">
+              <option value="">Latte</option>
+              <option value="">Americano</option>
+            </optgroup>
+          </select>
+
+        </p>
+
+
+
+        <p>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
+
+      </form>
+
+
+    </fieldset>
+
+
+
+
+
+  </body>
+
+</html>
+
+
+
+
+
+
+</body>
+
+</html>
