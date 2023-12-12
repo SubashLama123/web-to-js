@@ -6,57 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      /* h1 {
-        color: green;
-      }
-
-
-
-
-
-
-      .blg-sec h1 {
-        color: purple;
-      }
-
-      .blg-sec {
-        background-color: burlywood;
-      }
-
-      #header h1 {
-        color: chocolate;
-
-      }
-
-      #header p {
-        color: green;
-      }
-
-
-      /* > yesko used eauta box ko lagi matra single box lai maytra lagxa   */
-
-
-      /* .box>h1 {
-        background-color: blue;
-      }
-
-      .ch-box {
-        background-color: goldenrod;
-        padding: 20px;
-      }
-
-      /* box paxi ko used hunxa */
-      /* .bx+p {
-        color: red;
-      } */
-
       /*  yesle ~ Box vanda mathi ko p tag ko lagi matra lagxa */
       /* .bx~p {
         color: palevioletred
       } */
-      */ */ .bx:hover {
 
-        background-color: red;
+
+      .bx {
+        padding: 20px;
+        width: 50%;
+      }
+
+      .bx:hover {
+
+        background-color: black;
+        color: white;
+      }
+
+
+      /* kunai pani word thapera highlight  wa style dinu  parema P::after  ra p::before ko used garinxa  ra tesma hamile span tag used garera pani style dina sakinxa*/
+      p::after {
+        content: 'hello';
+
+        font-style: italic;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 1000;
+      }
+
+      .ab :hover::before {
+        content: 'tamang ';
+        color: red;
+        font-size: 25px;
+
+
+      }
+
+      /* >(greater than symbol  le box vitra ko eauta box lai matra select garxa) */
+      .Bx>h1 {
+        color: blue;
+      }
+
+
+      /* box paxi ko first p wa h lai linu parda +p  or +h used garne  */
+      .header+p {
+        color: yellow;
       }
     </style>
 
@@ -69,29 +63,44 @@
 
     <!-- duita p tag xa avne + used garne + used garda first ko lai linxa -->
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, vel?</p>
+
+
+
+    <div class="Bx">
+      <h1>hello box</h1>
+      <div class="ch-box">
+        <h1>Hello ch-box</h1>
+      </div>
+    </div>
+
+
+
+
 
 
     <div class="bx">
-      <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, officiis.</h1>
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat in veritatis itaque? Aliquam iste illo
+        veritatis sequi consequatur. Reiciendis natus ullam placeat magni necessitatibus asperiores laborum, officia,
+        perspiciatis ex consectetur optio quis cum? Quibusdam, natus reiciendis maxime temporibus aliquam rem eos.
+        Aperiam earum obcaecati delectus dicta minus dolor, suscipit hic?</h1>
 
     </div>
+
+
 
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam odio autem alias velit eius nisi repellendus
       dignissimos non inventore fugiat.</p>
 
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, dolorem?</p>
 
-
-
-
-
-    <div class="box">
-      <h1> Welcome Welcome</h1>
-      <div class="ch-box">
-        <h1>Welcome Welcome</h1>
-      </div>
+    <div class="ab">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea architecto quae sunt natus reiciendis amet commodi
+        quo quaerat tempore officia maxime unde laboriosam dignissimos, maiores tempora quos reprehenderit incidunt
+        iusto odit? Quo non eaque similique, quisquam aspernatur distinctio ad illo maiores? Vitae ratione dolore
+        adipisci. Doloribus culpa, error adipisci vitae neque placeat assumenda in earum, quo distinctio quis obcaecati
+        vero. Numquam eum molestias et commodi harum dolor minima rerum? Expedita veritatis nemo, labore aliquam ducimus
+        minima, dignissimos voluptatibus, odio sapiente qui fuga unde? Consequatur, incidunt. Repellendus eum accusamus,
+        est dignissimos suscipit, odit, rem totam quam animi aperiam cumque id nam.</p>
     </div>
 
 
@@ -100,24 +109,23 @@
 
 
 
-    <div class="blg-sec">
-      <hr>
-      <h1>Hello Blog Section</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid magni, repudiandae officia iure temporibus
-        alias ullam aperiam possimus obcaecati laborum reiciendis accusamus optio exercitationem ipsam expedita sit
-        assumenda impedit repellat?</p>
-      <hr>
-
-      <div d="header">
-        <h1>My Web logo</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nihil ratione repudiandae! Consequuntur
-          ut aperiam alias distinctio non animi recusandae. Rem delectus fugiat explicabo ullam temporibus molestias
-          mollitia quisquam quia!</p>
-      </div>
 
 
 
+    <hr color="green">
+
+    <div class="header">
+      <h1>My Web logo</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nihil ratione repudiandae! Consequuntur
+        ut aperiam alias distinctio non animi recusandae. Rem delectus fugiat explicabo ullam temporibus molestias
+        mollitia quisquam quia!</p>
     </div>
+
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, similique?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime animi error, accusamus quae
+      doloremque sit quas omnis libero tenetur.</p>
 
 
 
