@@ -6,54 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+      .bx {
+        height: 100px;
+        width: 200px;
+        background-color: red;
+        border: 2px solid gold;
+        /* top,right,bottom,left */
+        margin: 10px 20px 30px 40px;
 
-      body {
-        font-family: 'Raleway', sans-serif;
-        ;
+        /* margin:10px 20px   =top,bottom=10px right,left=20px*/
+
       }
 
-      p {
-        font-weight: 900;
+      .bx p {
+        text-align: center;
       }
+
 
       h1 {
         text-align: center;
       }
 
-      p {
-        text-decoration: underline 2px red;
-        text-transform: uppercase;
+      .bx1 p {
+
+        text-decoration: line-through 1px solid green;
+        /* text-decoration: underline 2px red; */
+        /* text-decoration: overline 2px solid red; */
+
+        /* text transform :capitalize  vaneko every word ko aagdako letter capital ma aauxa */
+        text-transform: capitalize
+          /* text-transform: lowercase; */
+          /* text-transform: uppercase; */
+
+      }
+
+      .box3 p {
         line-height: 50px;
         letter-spacing: 2px;
         word-spacing: 10px;
-
-
       }
 
-      span {
-        font-weight: bold;
-      }
 
+      /* text shadow generater  in google*/
       h2 {
         text-shadow: 15px 10px 10px red;
       }
 
-      @font-face {
-        font-family: kalMed;
-        src: url('/fonts/Kalnia_Expanded-Bold.ttf');
-      }
-
-
-
-      .bx1 p {
-        font-family: kalMed;
-      }
 
       .bx {
         height: 100px;
         max-width: ;
         border: 1 px dashed black;
+      }
+
+      span {
+        font-weight: bold;
       }
     </style>
   </head>
@@ -61,22 +68,23 @@
 
   <body>
     <div class="bx">
-
+      <p>borem borem</p>
     </div>
+
+
+
     <div class="bx1">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam atque nobis excepturi sint architecto
         voluptatem quaerat neque, delectus cum, provident nihil ut laborum placeat commodi ipsum, nulla sequi qui
         exercitationem distinctio aliquam corrupti! Possimus, eaque numquam ea corrupti consectetur perspiciatis?</p>
     </div>
 
-
-
-
-
-
-
-
-
+    <div class="box3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quae voluptatibus ab quasi molestias sunt hic
+        atQuisquam atque nobis excepturi sint architecto
+        voluptatem quaerat neque, delectus cum, provident nihil ut laborum placeat commodi ipsum, nulla sequi qui
+        aspernatur non vitae?</p>
+    </div>
 
 
 
