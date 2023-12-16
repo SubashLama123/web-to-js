@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .box {
+        background-color: red;
+        padding: 10px;
+        height: 100px;
+        width: 200px;
+        border: 1px solid black;
+
+        /* overflw vaneko box ma naaatako kuralai milaune eauta overflow hidden ra arko auto */
+        overflow: auto;
+        word-break: break-all;
+      }
+
+      .box2 {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        display: inline-block;
+      }
+
+      .box3 {
+        width: 200px;
+        height: 50px;
+        background-color: rgb(24, 170, 24);
+
+        /* display inline block garda eautai sida line ma aauxa ra height ra width lagxa but display: inline matra garda height width: lagdaina */
+        display: inline-block;
+      }
+
+      .g {
+        background-color: yellow;
+      }
+
+      .d {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <p>Lorem ipsum dolor Loremsubash ipsum dolor sit amet consectetur adipisicing elit. Iure at libero itaque saepe
+        earum
+        corporis laborum voluptatum autem, consequatur unde aliquam deserunt optio nihil dicta. Officia repellendus,
+        nihil vitae omnis cum quod quasi distinctio itaque ut quibusdam voluptates dignissimos impedit eaque harum earum
+        delectus nemo? Ut dolorem quasi laborum mollitia! </p>
+      <br>
+
+
+    </div>
+    <div class="box2">
+
+
+
+    </div>
+    <div class="box3">
+
+
+    </div>
+    <span class="g">Lorem ipsum dolor sit amet.</span>
+    <span class="d">Lorem ipsum dolor sit amet.</span>
+
+  </body>
+
+</html>
